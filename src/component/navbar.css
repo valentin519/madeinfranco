@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    margin-bottom: 5%;
+    
+}
+
+.navbarSelection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+}
+.navbarSelection p{
+    margin:5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border: unset 1px;
+    border-radius: 50%;
+    padding:1%;
+}
+.un{
+    box-shadow: 3px 3px 3px blue;
+}
+.un:hover{
+    background-color: blue;
+}
+.deux{
+    box-shadow: 3px 3px 3px yellow;
+}
+.deux:hover{
+    background-color: yellow;
+}
+.trois{
+    box-shadow: 3px 3px 3px greenyellow;
+}
+.trois:hover{
+    background-color: greenyellow;
+}
+.quatre{
+    box-shadow: 3px 3px 3px violet;
+}
+.quatre:hover{
+    background-color: violet;
+}
+.cinq{
+    box-shadow: 3px 3px 3px red;
+}
+.cinq:hover{
+    background-color: red;
+}

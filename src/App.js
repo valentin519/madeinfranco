@@ -1,31 +1,22 @@
 import React from 'react';
 import './App.css';
 import ReactLoading from 'react-loading';
+import Navbar from './component/Navbar';
+import Apropos from './component/Apropos';
+import Projet from './component/Projet';
+import Realisation from './component/Realisation';
+import Contact from './component/Contact';
+import Parle from './component/Parle';
 
 function App() {
   return (
     <div className="App">
-      <img src='/logofrancvFinal.png' alt=''/>
-      <div className='description'>
-      <p>Le monde francophone est un espace culturel, linguistique et économique unique.</p>
-<p>
-C'est avant tout un rassemblement d'êtres vivant sur différents continents qui ont une langue et des valeurs en partage.
-</p>
-<p>
-Une richesse, une diversité vibrante qu’il faut protéger, nourrir, accompagner, promouvoir avec des actions qui insufflent le sens du partage, de la solidarité, de l’inclusion indissociables de cette diversité.
-</p>
-<p>
-C’est ce qui anime « Made in Francophonie », association française loi 1901.</p>
-</div>
-      <div className='text'>
-        <p>Site en cours de construction </p>
-        <ReactLoading 
-                  className='loading' 
-                  type='bubbles'
-                  color='black'
-              />
-      </div>
-      <p>Nous serons heureux de vous acceuillir bientôt !</p>
+      <Navbar/>
+      <Apropos/>
+      <Realisation/>
+      <Projet/>
+      <Contact/>
+      <Parle/>
     </div>
   );
 }
