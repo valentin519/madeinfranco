@@ -1,7 +1,9 @@
 import React from 'react';
 import './projet.css';
+import Fade from 'react-reveal/Fade';
 
 const Projet =() => (
+    <Fade right>
     <div className='projet'>
         <p>Contenu</p>
         <p>Contenu</p>
@@ -10,6 +12,7 @@ const Projet =() => (
         <p>Contenu</p>
 
     </div>
+    </Fade>
 )
 
 export default Projet;

@@ -1,7 +1,9 @@
 import React from 'react';
 import './apropos.css';
+import Fade from 'react-reveal/Fade';
 
 const Apropos = () => (
+    <Fade right>
     <div className='Apropos'>
         <p>
             Le monde francophone est un espace culturel, linguistique et économique unique.
@@ -16,6 +18,7 @@ const Apropos = () => (
             C’est ce qui anime « Made in Francophonie », association française loi 1901.
         </p>
     </div>
+    </Fade>
 )
 
 export default Apropos;

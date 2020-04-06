@@ -6,7 +6,8 @@
     align-items: center;
     height: auto;
     margin-bottom: 5%;
-    
+    height: 3vh;
+    z-index: 50;
 }
 
 .navbarSelection{
