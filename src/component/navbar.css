@@ -28,32 +28,45 @@
     padding:1%;
 }
 .un{
-    box-shadow: 3px 3px 3px blue;
+    box-shadow: 3px 3px 3px #0095c7;
+ 
 }
 .un:hover{
-    background-color: blue;
+    background-color: #0095c7;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
+
 }
 .deux{
-    box-shadow: 3px 3px 3px yellow;
+    box-shadow: 3px 3px 3px #ffd700;
+    
 }
 .deux:hover{
-    background-color: yellow;
+    background-color: #ffd700;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
 }
 .trois{
-    box-shadow: 3px 3px 3px greenyellow;
+    box-shadow: 3px 3px 3px #079d51;
 }
 .trois:hover{
-    background-color: greenyellow;
+    background-color: #079d51;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
 }
 .quatre{
-    box-shadow: 3px 3px 3px violet;
+    box-shadow: 3px 3px 3px #85006b;
 }
 .quatre:hover{
-    background-color: violet;
+    background-color: #85006b;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
 }
 .cinq{
     box-shadow: 3px 3px 3px red;
 }
 .cinq:hover{
     background-color: red;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
 }

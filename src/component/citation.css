@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+
+
+
+.citation{
+    background-image: url('/fond.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.citation marquee{
+    font-family:Damion;
+    font-size: 2em;
+}
