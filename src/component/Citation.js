@@ -15,7 +15,7 @@ class Citation extends React.Component {
     }
 render(){
         return (
-            <div className='citation'>
+            <div className='citation' id='citation'>
                <marquee>
                 "Une culture , une religion ou une nation ne peut survivre si elle se préocupe d'exclure plutôt que de séduire , si sa légitimité se limite à revendiquer une place dans l ' Histoire ; elle doit revendiquer une place dans l ' avenir." (Jacques ATTALI)
                 "La Francophonie sera submersive et imaginative ou ne sera pas !" (Butros BOUTROS-GHALI)

@@ -3,7 +3,8 @@ import './parle.css';
 import Fade from 'react-reveal/Fade';
 
 const Parle = () => (
-    <Fade right>    <div className='parle'>
+    <Fade right> 
+       <div className='parle' id='parle'>
         <p>Contenu</p>
         <p>Contenu</p>
         <p>Contenu</p>

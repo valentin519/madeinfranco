@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const Contact = () => (
     <Fade left>
-    <div className='Contact'>
+    <div className='Contact' id="contact">
         <p>Contenu</p>
         <p>Contenu</p>
         <p>Contenu</p>

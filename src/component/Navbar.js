@@ -2,17 +2,19 @@ import React from "react";
 import './navbar.css';
 
 class Navbar extends React.Component {
-
+     refreshPage() {
+        window.location.reload(false);
+      }
     render(){
         return(
             <div className='nav'>
-                {/* <img src='/logofrancvFinal.png' alt=''/> */}
                 <div className='navbarSelection'>
-                    <p className='un'>A propos</p>
-                    <p className='deux'>Réalisations</p>
-                    <p className='trois'>Projets</p>
-                    <p className='quatre'>Contact</p>
-                    <p className='cinq'>Ils en parlent</p>
+                    <a  href='#apropos' className='un'>A propos</a>
+                    <a  href='#realisation' className='deux'>Réalisations</a>
+                    <a href='#projet'className='trois'>Projets</a>
+                    <a  href='#contact'className='quatre'>Contact</a>
+                    <a  href='#parle'className='cinq'>Ils en parlent</a>
+                    <img onClick={this.refreshPage} src='/logofrancvFinal.png'/>
                 </div>
             </div>
         )    
