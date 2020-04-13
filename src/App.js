@@ -33,8 +33,9 @@ this.closeModal=this.closeModal.bind(this);
           <Apropos/>
           <Realisation/>
           <Projet/>
-          <Contact/>
           <Parle/>
+          <Contact/>
+          
           </div>
           )
             }

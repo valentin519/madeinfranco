@@ -11,9 +11,10 @@ class Navbar extends React.Component {
                 <div className='navbarSelection'>
                     <a  href='#apropos' className='un'>A propos</a>
                     <a  href='#realisation' className='deux'>Réalisations</a>
-                    <a href='#projet'className='trois'>Projets</a>
-                    <a  href='#contact'className='quatre'>Contact</a>
-                    <a  href='#parle'className='cinq'>Ils en parlent</a>
+                    <a  href='#projet'className='trois'>Projets</a>
+                    <a  href='#parle'className='quatre'>Ils en parlent</a>
+                    <a  href='#contact'className='cinq'>Contact</a>
+                    
                     <img onClick={this.refreshPage} src='/logofrancvFinal.png'/>
                 </div>
             </div>

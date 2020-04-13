@@ -29,9 +29,7 @@
 .description p{
   margin: 0;
 }
-.App img{
-  width: 20%;
-}
+
 .text{
   display: flex;
   flex-direction: row;

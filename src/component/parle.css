@@ -1,7 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .parle{
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #ff0000;
+    background-color: #85006b;
+    justify-content: center;
+    align-items: center;
+}
+
+.attali{
+    left: 14%;
+    width: 25%;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+}
+.attali:hover{
+    width: 35%;
+    z-index: 50;
+}
+.camus{
+    left:0%;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+    width: 20%;
+}
+.camus:hover{
+    width: 30%;
+    z-index: 50;
+}
+.cioran{
+    left:34%;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+    width: 17%;
+}
+.cioran:hover{
+    width: 25%;
+    z-index: 50;
+}
+.ghali{
+    left:46%;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+    width: 25%; 
+}
+.ghali:hover{
+    width: 35%;
+    z-index:50;
+}
+.senghor{
+   right:17%;
+    margin:0;
+    position: absolute;
+    bottom: 0%;
+    width: 17%;
+}
+.senghor:hover{
+    width:25%;
+    z-index:50;
+}
+.auteurCitation{
+    font-family: 'Dancing Script', cursive;
+    background-image: url('/papier.jpg');
+    width:60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.vigneault{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.vigneault:hover{
+    width: 35%;
+    z-index:50;
 }
