@@ -1,12 +1,23 @@
 .Apropos{
     width:100%;
-    height:95vh;
+    height:100vh;
     background-color: #0095c7;
     color: white;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.5em;
 }
 .boiteTexte{
     width: 50%;
-    margin: 5%;
+    margin: 2%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+.Apropos img{
+    width: 30%;
+    height: 80%;
+    margin: 2%;
+    margin-right: 10%;
+    margin-top: 5%;
+   
 }
