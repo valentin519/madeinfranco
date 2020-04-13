@@ -4,10 +4,10 @@ import Fade from 'react-reveal/Fade';
 
 const Parle = () => (
     <Fade right>    <div className='parle'>
-        <p>Contenu</p>
-        <p>Contenu</p>
-        <p>Contenu</p>
-        <p>Contenu</p>
+        <div>
+            <img src='/attali.png' alt =''/>
+            <img src='/camus.png'
+        </div>
     </div>
     </Fade>
 
