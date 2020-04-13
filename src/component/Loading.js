@@ -34,8 +34,9 @@ class Loading extends React.Component {
                 />
                
                  }
-                <p>"La francophonie est créatrice d'humanité"</p>
-                <p>Francois H de BEAULIEU (Harvard community)</p>
+                <p>
+                    "La Francophonie est fondatrice d'Humanité".</p>
+                <p>François H. de BEAULIEU  (  La Francophonie au 21ème siècle, Harvard Faculty Club, 2006)</p>
                 {this.state.button &&
                 <Fade bottom>
                 <button onClick={this.props.closeModal}> Entrer</button>
