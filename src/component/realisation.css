@@ -2,6 +2,24 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #ffd700;
+}
+.defileReims{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.defileParis{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.video1{
+    width: 60%;
+    margin: 4%
+}
+.video2{
+    width: 60%;
+    margin: 4%;
 }

@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     background-color: #85006b;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -26,7 +26,7 @@
     margin:0;
     position: absolute;
     bottom: 0%;
-    width: 20%;
+    width: 24%;
 }
 .camus:hover{
     width: 30%;
@@ -40,7 +40,7 @@
     width: 17%;
 }
 .cioran:hover{
-    width: 25%;
+    width: 22%;
     z-index: 50;
 }
 .ghali{
@@ -62,7 +62,7 @@
     width: 17%;
 }
 .senghor:hover{
-    width:25%;
+    width:22%;
     z-index:50;
 }
 .auteurCitation{
@@ -72,6 +72,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    font-size: 1.8em;
 }
 .vigneault{
     width: 25%;
@@ -82,4 +84,7 @@
 .vigneault:hover{
     width: 35%;
     z-index:50;
+}
+.auteurCitation p{
+    margin: 1%;
 }
