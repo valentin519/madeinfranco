@@ -1,25 +1,87 @@
 .realisation{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #ffd700;
 }
 .defileReims{
-    width: 50%;
+    width: 96%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .defileParis{
-    width: 50%;
+    width: 96%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-.video1{
-    width: 60%;
-    margin: 4%
+.video{
+    width: 100%;
+    height: auto;
+    margin: 2%;
+    margin-top: 20%;
+   
 }
 .video2{
-    width: 60%;
-    margin: 4%;
+    width: 100%;
+    height: auto;
+    margin: 2%;
+    margin-bottom: 20%;
 }
+.text1{
+    width: 80%;
+    margin: 1%
+}
+.text2{
+    width: 80%;
+    margin:1%;
+}
+.union{
+    width: 60%;
+    
+    left: 1%;
+}
+.overlay {
+    position: fixed;
+    z-index: 150;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+  }
+  
+  .overlay img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin:2%;
+  }
+  .overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
+  }
+  .unionJournal{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .picUnion{
+      margin: 5%;
+      width: 27%;
+      
+  }
+  .text3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
