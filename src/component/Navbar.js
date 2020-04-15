@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                     <a  href='#parle'className='quatre'>Ils en parlent</a>
                     <a  href='#contact'className='cinq'>Contact</a>
                     
-                    <img onClick={this.refreshPage} src='/logofrancvFinal.png'/>
+                    <img onClick={this.refreshPage} src='/logofran.png'/>
                 </div>
             </div>
         )    

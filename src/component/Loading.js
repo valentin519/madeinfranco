@@ -24,7 +24,7 @@ class Loading extends React.Component {
     render(){
         return(
             <div className='load'>
-                <img src='logofrancvFinal.png' alt='' />
+                <img src='logofran.png' alt='' />
                 {this.state.loading &&
               
                 <ReactLoading 

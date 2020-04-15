@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Apropos = () => (
     <Fade right>
     <div className='Apropos' id='apropos'>
-        <img src='logofrancvFinal.png' alt='' />
+        <img src='logofran.png' alt='' />
         <div className='boiteTexte'>
             <p>
                 Le monde francophone est un espace culturel, linguistique et économique unique.
