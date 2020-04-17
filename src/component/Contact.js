@@ -5,10 +5,8 @@ import Fade from 'react-reveal/Fade';
 const Contact = () => (
     <Fade left>
     <div className='Contact' id="contact">
-        <p>Contenu</p>
-        <p>Contenu</p>
-        <p>Contenu</p>
-        <p>Contenu</p>
+        <p>contact@made-in-francophonie.net</p>
+        
     </div>
     </Fade>
 )
