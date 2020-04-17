@@ -3,7 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #ffd700;
+    background-color: rgb(255,215,0, 0.5);
 }
 .defileReims{
     width: 96%;
@@ -19,7 +19,7 @@
     width: 100%;
     height: auto;
     margin: 2%;
-    margin-top: 20%;
+    margin-top: 30%;
    
 }
 .video2{
@@ -30,16 +30,19 @@
 }
 .text1{
     width: 80%;
-    margin: 1%
+    margin: 1%;
+    text-align: left;
 }
 .text2{
     width: 80%;
     margin:1%;
+    display: flex;
+    flex-direction: row;
 }
 .union{
-    width: 60%;
-    
-    left: 1%;
+    width: 98%;
+    margin: 2%;
+   
 }
 .overlay {
     position: fixed;
@@ -75,12 +78,16 @@
     
   }
   .picUnion{
-      width: 65%;
+      width: 21%;
       
   }
   .text3{
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 1%;
       
+  }
+  .bold{
+    font-weight: bold;
   }
