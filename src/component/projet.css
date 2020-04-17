@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: rgb(7,157,81, 0.5);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: flex-start;
     align-items: flex-start;
     
@@ -17,4 +17,11 @@
     min-height: 2.5vh;
     height: 2.5vh;
     width: 100%;
+}
+.videoLivre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2%;
 }

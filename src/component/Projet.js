@@ -30,9 +30,14 @@ Des photos remarquables signées Laurent de Gaulle accompagnent l'ouvrage.
 
 Souscription à l'édition originale (quelques volumes numérotés encore disponibles): 
              <a href='https://www.hymnalaya.fr/roman'>Ici</a>
+
         </p>
-       
-       
+        <div  className='videoLivre'>
+            <video controls  width='50%' height='100%'> 
+                <source className='videoacceuil' src="livre.webm" type="video/webm"/>
+                <source className='videoacceuil' src="livre.mp4" type="video/mp4"/>  
+            </video> 
+        </div>
     </div>
     </Fade>
 )
