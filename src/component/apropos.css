@@ -8,19 +8,26 @@
     
 }
 .boiteTexte{
-    width: 90%;
+    width: 50%;
     margin: 2%;
     margin-right: 10%;
     margin-top: 2%;
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: left;
+}
+.boiteImg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Apropos img{
    
     margin-top: 5%;
     margin-left: 5%;
-    width: 70%;
-    height: 70%;
+    width: 50%;
+   
+   
 }
 .boiteTexte br{
     margin-bottom: 2%;
