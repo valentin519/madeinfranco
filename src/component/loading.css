@@ -6,20 +6,30 @@
     width: 100%;
     height: 100%;
 }
+.firstLign , .secondLign , .thirdLign{
+    width: 100%;
+}
+.firstLign p{
+    font-size: 2em;
+    margin: 2%;
+}
+.secondLign p{
+    font-size: 1.3em;
+    margin-left: 31%;
+}
+.thirdLign p{
+    font-size: 1em;
+    margin: 0;
+    margin-left: 30%;
+}
 
-.load p{
-    font-size: 1.8em;
-    margin:0;
-}
-.firstLign{
-    margin-bottom: 4%;
-}
 .load button{
     border: inset;
     width: 10%;
-    height: 5;
-    margin: 5%;
+    height: 5%;
+    margin: 3%;
 }
 .load img{
-    width:15%;
+    width:20%;
+    margin: 1%;
 }

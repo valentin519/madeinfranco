@@ -34,10 +34,12 @@ class Realisation extends React.Component {
         return(
             <Fade left>
             <div className='realisation' id='realisation'>
+                <h1 className='title'><u>Réalisations :</u></h1>
                 <div className='defileReims'>
                     <Slide left>
+                        
                         <YouTube
-                            className='video'
+                            className='video1'
                             videoId="lx2ZmdWX-eA"
                             opts={videoOptions}
                             autoPlay="autoplay"
@@ -46,12 +48,14 @@ class Realisation extends React.Component {
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />
+                        
                         <div className='text1'>
                         <p>
                            <strong> Mode d'Avenir :</strong>
                         </p>
                         <p>
                         Avec le designer de mode Ousmane Ouedraogo ("Ousman O."), Made-in-Francophonie a créé le Concours des Jeunes Designers de Mode Francophones dont la 1ère édition était dédiée aux jeunes créateurs africains avec le parrainage de Pathé'O, le couturier de Nelson Mandela, Desmond Tutu, Kofi Annan ou encore Mary Robinson, Naomi Campbell... Les lauréats ont été invités à présenter leurs modèles à l'occasion du défilé de clôture à Reims, le 26 septembre 2019, au prestigieux Palais du Tau.
+<br/>
 L'initiative vise à:
 <br/>
 - Promouvoir l'entreprenariat, la création dans les pays africains francophones en offrant  aux lauréats visibilité, accès aux médias et aux marchés. 
@@ -91,7 +95,9 @@ L'initiative vise à:
                             onEnd={this._onEnd}
                         />
                         <div className='text2'>
-                            <p> <strong>Le Conseil Economique, Social et Environnemental</strong> invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris. L'occasion de présenter un défilé d'Ousman O. dont chaque modèle portait le label "Made in Francophonie".</p> 
+                            <p> <strong>Le Conseil Economique, Social et Environnemental</strong> invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris.
+                            <br/>
+                             L'occasion de présenter un défilé d'Ousman O. dont chaque modèle portait le label "Made in Francophonie".</p> 
                         </div>
                         
                     </Slide>       

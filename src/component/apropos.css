@@ -4,19 +4,32 @@
     background-color: rgb(0,149,199,0.5);
     color: black;
     display: flex;
-    justify-content: flex-end;
+    
+    flex-direction: column;
     
 }
+.contenuApropos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
 .boiteTexte{
-    width: 50%;
+    width: 40%;
     margin: 2%;
     margin-right: 10%;
     margin-top: 2%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: left;
 }
 .boiteImg{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;

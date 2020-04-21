@@ -5,7 +5,10 @@ import Fade from 'react-reveal/Fade';
 const Apropos = () => (
     <Fade right>
     <div className='Apropos' id='apropos'>
-       
+        
+            <h1><u>A propos :</u></h1>
+        
+    <div className='contenuApropos'>
         <div className='boiteTexte'>
             <p>
                 Le monde francophone est un espace culturel, linguistique et économique unique.<br/>
@@ -17,6 +20,7 @@ const Apropos = () => (
         </div>
         <div className='boiteImg'>
         <img src='PhotoSite.png' alt='' />
+        </div>
         </div>
     </div>
     </Fade>

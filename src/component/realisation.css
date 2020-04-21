@@ -5,6 +5,9 @@
     flex-direction: column;
     background-color: rgb(255,215,0, 0.5);
 }
+.title{
+    font-size: 2em;
+}
 .defileReims{
     width: 96%;
     display: flex;
@@ -15,7 +18,8 @@
     display: flex;
     flex-direction: row;
 }
-.video{
+
+.video1{
     width: 100%;
     height: auto;
     margin: 2%;
@@ -29,7 +33,7 @@
     margin-bottom: 20%;
 }
 .text1{
-    width: 80%;
+    width: 70%;
     margin: 1%;
     text-align: left;
 }
@@ -37,10 +41,11 @@
     margin-bottom: 2%;
 }
 .text2{
-    width: 80%;
+    width: 70%;
     margin:1%;
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 .union{
     width: 98%;
@@ -82,6 +87,7 @@
   }
   .picUnion{
       width: 17%;
+      margin-right: 5%;
       
   }
   .text3{

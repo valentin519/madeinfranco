@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Projet =() => (
     <Fade right>
     <div className='projet'id='projet'>
+        <h1 className='title'><u>Projets:</u></h1>
         <div className='projeTitle'></div>
         <p><strong>- La 2ème édition du Concours des Jeunes Designers de Mode Francophones :</strong></p>
         <p>Il sera organisé à l'automne 2020 ou au printemps 2021 selon les contraintes liées à l'actualité. Cette 2ème édition permettrait de faire émerger un Concours-caravane dans les pays participants, puis un défilé-caravane qu'accueilleraient plusieurs villes françaises.</p>

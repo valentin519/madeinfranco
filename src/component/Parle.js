@@ -66,6 +66,7 @@ class Parle extends React.Component{
         return(
             <Fade right> 
             <div className='parle' id='parle'>
+                <h1><u>Ils en parlent :</u></h1>
                 {this.state.attali && 
                 <Fade right>
                 <div className='auteurCitation'>

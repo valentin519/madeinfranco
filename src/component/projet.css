@@ -8,8 +8,11 @@
     align-items: flex-start;
     
 }
+.title{
+    font-size: 2em;
+}
 .projet p{
-    font-size:1em;
+    
     margin: 2%;
     text-align: left;
 }
@@ -17,6 +20,7 @@
     min-height: 2.5vh;
     height: 2.5vh;
     width: 100%;
+    
 }
 .videoLivre{
     display: flex;

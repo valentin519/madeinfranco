@@ -39,9 +39,12 @@ class Loading extends React.Component {
                         "La Francophonie est fondatrice d'Humanité".
                     </p>
                 </div>
-
+                 <div className='secondLign'>
                 <p>François H. de Beaulieu </p>
-                <p>"La Francophonie au 21ème siècle" , Harvard Faculty Club, 2006.</p>
+                </div>
+                <div className='thirdLign'>
+                <p>"La Francophonie au 21ème siècle" <br/> Harvard Faculty Club, 2006.</p>
+                </div>
                 {this.state.button &&
                 <Fade bottom>
                 <button onClick={this.props.closeModal}> Entrer</button>
