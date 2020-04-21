@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 .parle{
     width: 100%;
     height: 100vh;
@@ -9,6 +9,9 @@
     justify-content: flex-end; 
     align-items: center;
    
+}
+.parle h1{
+    font-family: Girassol;
 }
 .auteur{
     display: flex;
@@ -49,10 +52,6 @@
 
 .auteurCitation{
     font-family: 'Dancing Script', cursive;
-    background-image: url('/papier.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width:60%;
     height: auto;
     display: flex;

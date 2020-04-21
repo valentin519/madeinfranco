@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 .nav{
     display: flex;
     flex-direction: column;
@@ -18,6 +19,7 @@
     width: 100%;
     position: fixed;
     align-items: center;
+    font-family: Girassol;
 }
 .navbarSelection img{
     width: 5%;
