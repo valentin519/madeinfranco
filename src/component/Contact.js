@@ -16,7 +16,7 @@ const Contact = () => (
             <div className='second'>
                 <p>Siège Social : 20 Rue Henri IV , 51100 Reims</p>
                 <p>Siret : 879 203 842 00015</p>
-                <p>RNA w5130008860</p>
+                <p>RNA W5130008860</p>
             </div>
         </div>
     </div>

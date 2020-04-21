@@ -6,7 +6,7 @@ const Apropos = () => (
     <Fade right>
     <div className='Apropos' id='apropos'>
         
-            <h1><u>A propos :</u></h1>
+            <h1><u>À propos :</u></h1>
         
     <div className='contenuApropos'>
         <div className='boiteTexte'>
