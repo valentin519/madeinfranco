@@ -16,7 +16,7 @@ const Contact = () => (
                         Association loi 1901 d'intéret général , sans but lucratif
                     </p>
                     <p>
-                        Créeé le 09/07/2019 ,parution au journal Officiel le 20/07/2019
+                        Créée le 09/07/2019 ,parution au Journal Officiel le 20/07/2019
                     </p>
                 </div>
                 <div className='second'>
@@ -24,6 +24,14 @@ const Contact = () => (
                     <p>Siret : 879 203 842 00015</p>
                     <p>RNA W5130008860</p>
                 </div>
+            </div>
+            <div className='signature'>
+                <p>Site créé par :  
+                    <a href='https://www.linkedin.com/in/valentin-julien-422b77193'>
+                        Valentin JULIEN
+                    </a>
+                    <img src='/linkedin.png'/>
+                </p>
             </div>
         </div>
     </Fade>
