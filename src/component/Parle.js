@@ -140,12 +140,14 @@ class Parle extends React.Component{
                         </Fade>
                     }
                     <div className='auteur'>
-                        <img onMouseOver={this.toggleAttali} onMouseOut={this.disappearAttali} className='attali' src='/attali.png' alt =''/>
-                        <img onMouseOver={this.toggleCamus} onMouseOut={this.disappearCamus} className='camus' src='/camus.png' alt =''/>
-                        <img onMouseOver={this.toggleCioran} onMouseOut={this.disappearCioran} className='cioran' src='/cioran.png' alt=''/>
-                        <img onMouseOver={this.toggleGhali} onMouseOut={this.disappearGhali}  className='ghali' src='/ghali.png' alt=''/>
-                        <img onMouseOver={this.toggleSenghor} onMouseOut={this.disappearSenghor} className='senghor' src='/senghor.png' alt='' />
-                        <img onMouseOver={this.toggleVigneault} onMouseOut={this.disappearVigneault} className='vigneault' src='/vigneault.png' alt='' />
+                        <div className='relative'>
+                            <img onMouseOver={this.toggleAttali} onMouseOut={this.disappearAttali} className='attali' src='/attali.png' alt =''/>
+                            <img onMouseOver={this.toggleCamus} onMouseOut={this.disappearCamus} className='camus' src='/camus.png' alt =''/>
+                            <img onMouseOver={this.toggleCioran} onMouseOut={this.disappearCioran} className='cioran' src='/cioran.png' alt=''/>
+                            <img onMouseOver={this.toggleGhali} onMouseOut={this.disappearGhali}  className='ghali' src='/ghali.png' alt=''/>
+                            <img onMouseOver={this.toggleSenghor} onMouseOut={this.disappearSenghor} className='senghor' src='/senghor.png' alt='' />
+                            <img onMouseOver={this.toggleVigneault} onMouseOut={this.disappearVigneault} className='vigneault' src='/vigneault.png' alt='' />
+                        </div>
                     </div>
                 </div>
             </Fade>
