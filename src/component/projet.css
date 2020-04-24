@@ -10,15 +10,28 @@
     align-items: flex-start;
     
 }
+.textVideo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+.textLivre{
+    width: 50% ;
+}
 .projet h1{
     font-family: Girassol;
 }
 .title{
     font-size: 2em;
 }
+.projet h2{
+       
+    margin: 1%;
+    text-align: left;
+}
 .projet p{
     
-    margin: 2%;
+    margin: 1%;
     text-align: left;
 }
 .projeTitle{
@@ -31,8 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-bottom: 2%;
+    width: 50%;
+    
 }
 .projeTitle br{
     margin-bottom: 2%;

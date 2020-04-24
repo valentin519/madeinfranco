@@ -99,9 +99,10 @@ class Realisation extends React.Component {
                             <div className='text2'>
                                 <p>
                                     <strong>
-                                        Le Conseil Economique, Social et Environnemental
+                                        Le Conseil Economique, Social et Environnemental 
                                     </strong>
-                                    invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris.
+                                    
+                                     invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris.
                                     <br/>
                                     L'occasion de présenter un défilé d'Ousman O. dont chaque modèle portait le label "Made in Francophonie".
                                 </p> 

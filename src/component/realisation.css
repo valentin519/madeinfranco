@@ -98,12 +98,15 @@
       margin-right: 5%;
       
   }
+  .text2 strong{
+      margin-right: 1%;
+  }
   .text3{
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 1%;
-      margin-left:7%;
+      margin-left:8%;
   }
   .bold{
     font-weight: bold;
