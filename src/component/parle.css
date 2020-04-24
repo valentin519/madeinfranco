@@ -12,7 +12,7 @@
 }
 .parle h1{
     font-family: Girassol;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .auteur{
     display: flex;
@@ -20,7 +20,7 @@
     width: 100%;
     max-width: 100vw;
     justify-content: flex-end;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .relative{
     position: relative;
@@ -36,65 +36,55 @@
 }
 .attali{
     margin:0;
-    left :10%;
+    left :4%;
     bottom: 0;
+    width: 20%;
 }
-.attali:hover{
-    width: 25%;
-}
+
 .camus{
     margin:0; 
-    left: 23%;
+    left: 22%;
     bottom: 0%;
+    width: 20%;
 }
-.camus:hover{
-    width: 25%;
-}
+
 .cioran{
     margin:0;  
-    left : 37%;
+    left : 40%;
     bottom: 0;
     width: 13%;
 }
-.cioran:hover{
-    width:20%;
-}
+
 .ghali{  
     margin:0;
-    left : 47%;
+    left : 50%;
     bottom: 0;
     
 }
-.ghali:hover{
-    width: 20%;
-}
+
 .senghor{
     margin:0;
-    left : 57%;
+    left : 65%;
     bottom: 0%;
-    width: 12%;
+    width: 14%;
 }
-.senghor:hover{
-    width: 20%;
-}
+
 .auteurCitation{
     font-family: 'Dancing Script', cursive;
-    width:60%;
+    width:80%;
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
-    font-size: 1.8em;
+    font-size: 1.5em;
     flex-wrap: wrap;
 }
 .vigneault{ 
   margin: 0;
-  left: 63%;
+  left: 73%;
   bottom: 0%;
+  width: 22%;
 }
-.vigneault:hover{
-    width: 20%;
-}
+
 .auteurCitation p{
     margin: 1%;
 }
