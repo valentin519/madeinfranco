@@ -12,6 +12,7 @@
 }
 .Apropos h1{
     font-family: Girassol;
+    margin-bottom: 5%;
 }
 .contenuApropos{
     display: flex;
@@ -49,7 +50,4 @@
     width: 70%;
    
    
-}
-.boiteTexte br{
-    margin-bottom: 3%;
 }
