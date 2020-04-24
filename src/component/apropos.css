@@ -26,12 +26,15 @@
     font-size: 2em;
 }
 .boiteTexte{
-    width: 42%;
-    margin: 2%;
-    margin-right: 10%;
-    margin-top: 2%;
-    font-size: 1.3em;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 10%;
+    font-size: 1.1em;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Girassol;
 }
 .boiteImg{
     width: 40%;
@@ -41,12 +44,12 @@
 }
 .Apropos img{
    
-    margin-top: 5%;
+    
     margin-left: 5%;
-    width: 50%;
+    width: 70%;
    
    
 }
 .boiteTexte br{
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
