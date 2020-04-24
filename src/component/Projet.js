@@ -41,7 +41,7 @@ const Projet =() => (
                         </p>
                         </div>
                     <div  className='videoLivre'>
-                        <video controls  width='50%' height='100%'> 
+                        <video controls  width='90%' height='100%'> 
                             <source className='videoacceuil' src="livre.webm" type="video/webm"/>
                             <source className='videoacceuil' src="livre.mp4" type="video/mp4"/>  
                         </video> 
