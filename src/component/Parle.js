@@ -66,7 +66,7 @@ class Parle extends React.Component{
         return(
             <Fade right> 
                 <div className='parle' id='parle'>
-                    <h1>Ils en parlent :</h1>
+                    <h1>Ils parlent de la Francophonie :</h1>
                     <div className='boiteMilieu'>
                         <div className='boiteAuteur'>
                             <p onMouseOver={this.toggleAttali} onMouseOut={this.disappearAttali} >Jacques Attali</p>

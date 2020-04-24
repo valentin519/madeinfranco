@@ -32,12 +32,16 @@ const Projet =() => (
                         Du regard que les personnages portent sur un monde qui a tant changé au cours des trente dernières années, rejaillit régulièrement l’ombre de Colombey.
                         <br/>
                         Trente ans plus tard, en 2020, nous célébrons le cinquantième anniversaire de la Francophonie mais aussi de la mort de Charles de Gaulle et le texte que nous proposent Bernard Namura et Lucie Géloen, écrit avec maitrise mais aussi sensibilité, nous montre combien, plus que jamais, l’actualité de la pensée, de la vision de Charles de Gaulle s’impose dans un monde en crise qu'il faut réinventer avec humanité.
+                        <br/>
                         Des photos remarquables signées Laurent de Gaulle accompagnent l'ouvrage.
                         <br/>
-                        Souscription à l'édition originale (quelques volumes numérotés encore disponibles): 
+                        <p> </p>
+                        <strong>
+                        Souscription à l'édition originale (quelques volumes numérotés encore disponibles):  
                         <a href='https://www.hymnalaya.fr/roman'>
-                            Ici
+                             Ici
                         </a>
+                        </strong>
                         </p>
                         </div>
                     <div  className='videoLivre'>
