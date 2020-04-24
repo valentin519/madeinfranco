@@ -56,7 +56,7 @@ class Realisation extends React.Component {
                                     </strong>
                                 </p>
                                 <p>
-                                    Avec le designer de mode Ousmane Ouedraogo ("Ousman O."), Made-in-Francophonie a créé le Concours des Jeunes Designers de Mode Francophones dont la 1ère édition était dédiée aux jeunes créateurs africains avec le parrainage de Pathé'O, le couturier de Nelson Mandela, Desmond Tutu, Kofi Annan ou encore Mary Robinson, Naomi Campbell... Les lauréats ont été invités à présenter leurs modèles à l'occasion du défilé de clôture à Reims, le 26 septembre 2019, au prestigieux Palais du Tau.
+                                    Avec le designer de mode Ousmane Ouedraogo ("<a  href='http://www.ousman-o.fashion' target='blank'> Ousman O. </a>"), Made-in-Francophonie a créé le Concours des Jeunes Designers de Mode Francophones dont la 1ère édition était dédiée aux jeunes créateurs africains avec le parrainage de Pathé'O, le couturier de Nelson Mandela, Desmond Tutu, Kofi Annan ou encore Mary Robinson, Naomi Campbell... Les lauréats ont été invités à présenter leurs modèles à l'occasion du défilé de clôture à Reims, le 26 septembre 2019, au prestigieux Palais du Tau.
                                     <br/>
                                     L'initiative vise à:
                                     <br/>
