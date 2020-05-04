@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
-
+@media only screen and (min-width : 601px){
 .realisation{
     width: 100%;
     height: auto;
@@ -108,3 +108,120 @@
   .bold{
     font-weight: bold;
   }
+}
+@media only screen and (max-width : 600px){
+    .realisation{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255,215,0, 0.5);
+    }
+    .realisation h1{
+        font-family: Girassol;
+    }
+    .title{
+        font-size: 2em;
+    }
+    .defileReims{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+    }
+    .defileParis{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .video1{
+        width: 100%;
+        height: 100%;
+        margin: 2%;
+        margin-top: 3%;
+       
+    }
+    .video2{
+        width: 100%;
+        height: 100%;
+        margin: 2%;
+        margin-bottom: 5%;
+        
+    }
+    .text1{
+        width: 90%;
+        margin: 1%;
+        text-align: left;
+       margin-left: 5%;
+    }
+    .text1 br{
+        margin-bottom: 2%;
+    }
+    .text2{
+        width: 90%;
+        margin:1%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-left: 5%;
+        
+    }
+    .text2 strong{
+        margin-left: 1%;
+    }
+    .union{
+        width: 98%;
+        margin: 2%;
+       
+    }
+    .overlay {
+        position: fixed;
+        z-index: 150;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        visibility: hidden;
+      }
+      
+      .overlay img{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        margin:2%;
+      }
+      .overlay:target {
+        visibility: visible;
+        outline: none;
+        cursor: default;
+      }
+      .unionJournal{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .picUnion{
+          width: 95%;
+          
+          
+      }
+      .text3{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 1%;
+          margin-left:7%;
+      }
+      .bold{
+        font-weight: bold;
+      }
+}

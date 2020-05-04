@@ -1,3 +1,4 @@
+@media only screen and (min-width : 601px){
 .load{
     display: flex;
     flex-direction: column;
@@ -32,4 +33,44 @@
 .load img{
     width:20%;
     margin: 1%;
+}
+}
+@media only screen and (max-width : 600px){
+    .load{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .firstLign , .secondLign , .thirdLign{
+        width: 100%;
+    }
+    .firstLign p{
+        font-size: 2em;
+        margin: 2%;
+    }
+    .secondLign p{
+        font-size: 1em;
+        margin-left: 31%;
+    }
+    .thirdLign p{
+        font-size: 0.7em;
+        margin: 0;
+        margin-left: 30%;
+    }
+    
+    .load button{
+        border: inset;
+        width: 20%;
+        height: 5%;
+        margin: 3%;
+        margin-top: 10%;
+    }
+    .load img{
+        width:30%;
+        margin: 1%;
+        margin-top:15%;
+    }
 }
