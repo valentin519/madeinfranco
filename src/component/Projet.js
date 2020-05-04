@@ -7,19 +7,21 @@ const Projet =() => (
         <div className='projet'id='projet'>
             <h1 className='title'>Projets:</h1>
                 <div className='projeTitle'></div>
-                    <p>
+                    <h2>
                         <strong>
-                                - La 2ème édition du Concours des Jeunes Designers de Mode Francophones :
+                                2ème édition du Concours des Jeunes Designers de Mode Francophones :
                         </strong>
-                    </p>
+                    </h2>
                     <p>
                         Il sera organisé à l'automne 2020 ou au printemps 2021 selon les contraintes liées à l'actualité. Cette 2ème édition permettrait de faire émerger un Concours-caravane dans les pays participants, puis un défilé-caravane qu'accueilleraient plusieurs villes françaises.
                     </p>
-                    <p>
+                    <div className='textVideo'>
+                        <div className='textLivre'>
+                    <h2>
                         <strong>
-                            - Publication de "2020... dixit de Gaulle" :
+                             "2020... dixit de Gaulle" :
                         </strong>
-                    </p>
+                    </h2>
                     <p> 
                         La publication de cet ouvrage-clé, écrit à 4 mains par Bernard Namura et Lucie Gëloen, est prévue à l'automne 2020.
                         <br/>
@@ -30,18 +32,24 @@ const Projet =() => (
                         Du regard que les personnages portent sur un monde qui a tant changé au cours des trente dernières années, rejaillit régulièrement l’ombre de Colombey.
                         <br/>
                         Trente ans plus tard, en 2020, nous célébrons le cinquantième anniversaire de la Francophonie mais aussi de la mort de Charles de Gaulle et le texte que nous proposent Bernard Namura et Lucie Géloen, écrit avec maitrise mais aussi sensibilité, nous montre combien, plus que jamais, l’actualité de la pensée, de la vision de Charles de Gaulle s’impose dans un monde en crise qu'il faut réinventer avec humanité.
+                        <br/>
                         Des photos remarquables signées Laurent de Gaulle accompagnent l'ouvrage.
                         <br/>
-                        Souscription à l'édition originale (quelques volumes numérotés encore disponibles): 
+                        <p> </p>
+                        <strong>
+                        Souscription à l'édition originale (quelques volumes numérotés encore disponibles):  
                         <a href='https://www.hymnalaya.fr/roman'>
-                            Ici
+                             Ici
                         </a>
+                        </strong>
                         </p>
+                        </div>
                     <div  className='videoLivre'>
-                        <video controls  width='50%' height='100%'> 
+                        <video controls  width='90%' height='100%'> 
                             <source className='videoacceuil' src="livre.webm" type="video/webm"/>
                             <source className='videoacceuil' src="livre.mp4" type="video/mp4"/>  
                         </video> 
+                    </div>
                     </div>
         </div>
     </Fade>

@@ -56,18 +56,24 @@ class Realisation extends React.Component {
                                     </strong>
                                 </p>
                                 <p>
-                                    Avec le designer de mode Ousmane Ouedraogo ("Ousman O."), Made-in-Francophonie a créé le Concours des Jeunes Designers de Mode Francophones dont la 1ère édition était dédiée aux jeunes créateurs africains avec le parrainage de Pathé'O, le couturier de Nelson Mandela, Desmond Tutu, Kofi Annan ou encore Mary Robinson, Naomi Campbell... Les lauréats ont été invités à présenter leurs modèles à l'occasion du défilé de clôture à Reims, le 26 septembre 2019, au prestigieux Palais du Tau.
+                                    Avec le designer de mode Ousmane Ouedraogo ("<a  href='http://www.ousman-o.fashion' target='blank'> Ousman O. </a>"), Made-in-Francophonie a créé le Concours des Jeunes Designers de Mode Francophones dont la 1ère édition était dédiée aux jeunes créateurs africains avec le parrainage de Pathé'O, le couturier de Nelson Mandela, Desmond Tutu, Kofi Annan ou encore Mary Robinson, Naomi Campbell... Les lauréats ont été invités à présenter leurs modèles à l'occasion du défilé de clôture à Reims, le 26 septembre 2019, au prestigieux Palais du Tau.
                                     <br/>
+                                    <p></p>
                                     L'initiative vise à:
                                     <br/>
+                                    <p></p>
                                     - Promouvoir l'entreprenariat, la création dans les pays africains francophones en offrant  aux lauréats visibilité, accès aux médias et aux marchés. 
                                     <br/>
+                                    <p></p>
                                     - Soutenir le travail des coopératives de femmes africaines, qui tissent et teignent les tissus traditionnels, et à perpétuer ainsi un savoir-faire ancestral. 
                                     <br/>
+                                    <p></p>
                                     - Soutenir l'autonomisation économique de ces femmes et des jeunes, et également l'égalité des chances entre homme et femme parmi les lauréats. I
                                     <br/>
+                                    <p></p>
                                     - Promouvoir des alternatives (coton bio, teintures végétales, chanvre...) qui feront une réelle différence dans une industrie qui se classe au second rang parmi les plus polluantes de la planète.
                                     <br/>
+                                    <p></p>
                                     - Promouvoir également le label "Made in Francophonie" sur lequel figurent, en plus du nom du designer, celui des artisans qui ont contribué à la réalisation du modèle: pour une mode éthique et solidaire... Des vêtements qui ont une histoire que l'on partage, que l'on transmet.
                                 </p>
                             </div> 
@@ -99,9 +105,10 @@ class Realisation extends React.Component {
                             <div className='text2'>
                                 <p>
                                     <strong>
-                                        Le Conseil Economique, Social et Environnemental
+                                        Le Conseil Economique, Social et Environnemental 
                                     </strong>
-                                    invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris.
+                                    
+                                     invitait Made in Francophonie le 10 mars 2019, dans le cadre des 50 ans de la Francophonie, au Palais d'Iéna à Paris.
                                     <br/>
                                     L'occasion de présenter un défilé d'Ousman O. dont chaque modèle portait le label "Made in Francophonie".
                                 </p> 

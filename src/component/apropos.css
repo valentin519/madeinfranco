@@ -12,6 +12,7 @@
 }
 .Apropos h1{
     font-family: Girassol;
+    margin-bottom: 5%;
 }
 .contenuApropos{
     display: flex;
@@ -27,11 +28,14 @@
 }
 .boiteTexte{
     width: 40%;
-    margin: 2%;
-    margin-right: 10%;
-    margin-top: 2%;
-    font-size: 1.3em;
+    margin-right: 5%;
+    margin-left: 10%;
+    font-size: 1.1em;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Girassol;
 }
 .boiteImg{
     width: 40%;
@@ -41,9 +45,9 @@
 }
 .Apropos img{
    
-    margin-top: 5%;
+    
     margin-left: 5%;
-    width: 50%;
+    width: 70%;
    
    
 }

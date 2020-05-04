@@ -6,21 +6,21 @@ const Contact = () => (
     <Fade left>
         <div className='Contact' id="contact">
             <h1>Contact:</h1>
-            <p>contact@made-in-francophonie.net</p>
+            <h2>contact@made-in-francophonie.net</h2>
             <div className='footer'>
                 <div className='first'>
                     <p>
                         Made In Francophonie
                     </p>
                     <p>
-                        Association loi 1901 d'intéret général , sans but lucratif
+                        Association loi 1901 d'intéret général, sans but lucratif
                     </p>
                     <p>
-                        Créée le 09/07/2019 ,parution au Journal Officiel le 20/07/2019
+                        Créée le 09/07/2019, parution au Journal Officiel le 20/07/2019
                     </p>
                 </div>
                 <div className='second'>
-                    <p>Siège Social : 20 Rue Henri IV , 51100 Reims</p>
+                    <p>Siège Social : 20 Rue Henri IV, 51100-Reims</p>
                     <p>Siret : 879 203 842 00015</p>
                     <p>RNA W5130008860</p>
                 </div>

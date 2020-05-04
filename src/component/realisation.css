@@ -28,7 +28,7 @@
     width: 100%;
     height: auto;
     margin: 2%;
-    margin-top: 30%;
+    margin-top: 90%;
    
 }
 .video2{
@@ -98,12 +98,15 @@
       margin-right: 5%;
       
   }
+  .text2 strong{
+      margin-right: 1%;
+  }
   .text3{
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 1%;
-      margin-left:7%;
+      margin-left:8.5%;
   }
   .bold{
     font-weight: bold;
