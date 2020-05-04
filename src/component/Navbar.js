@@ -26,6 +26,23 @@ class Navbar extends React.Component {
                     </a>                  
                     <img onClick={this.refreshPage} src='/logofran.png'/>
                 </div>
+                <div className='navbarMobile'>
+                <a  href='#apropos' className='un'>
+                        À propos
+                    </a>
+                    <a  href='#realisation' className='deux'>
+                        Réalisations
+                    </a>
+                    <a  href='#projet'className='trois'>
+                        Projets
+                    </a>
+                    <a  href='#parle'className='quatre'>
+                        Ils en parlent
+                    </a>
+                    <a  href='#contact'className='cinq'>
+                        Contact
+                    </a> 
+                </div>
             </div>
         )    
     }        
