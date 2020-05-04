@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
-
+@media only screen and (min-width : 601px){
 .parle{
     width: 100%;
     height: auto;
@@ -9,6 +9,9 @@
     background-color: rgb(133,0,107,0.5);
     justify-content: flex-start; 
     align-items: center;  
+}
+.parleDesktop{
+    width: 100%;
 }
 
 .boiteMilieu{
@@ -158,4 +161,174 @@
 }
 .auteurCitation p{
     margin: 1%;
+}
+.parleMobile{
+    display: none;
+}
+}
+@media only screen and (max-width : 600px){
+    .parle{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(133,0,107,0.5);
+        justify-content: flex-start; 
+        align-items: center;  
+    }
+    .parleDesktop{
+        display: none;
+    }
+    
+    .boiteMilieu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+    
+    .boiteAuteur{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        border: solid 2px ;
+        margin: 2%;
+        border-radius: 5%;
+        border-color: black;
+    }
+    .boiteCitation{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boiteAuteur p{
+        margin: 1%;
+        font-size: 1em;
+        font-family: Girassol;
+    }
+    .boiteAuteur p:hover{
+        font-size: 1.2em;
+        margin: 0%;
+        color: #ffd700;
+    }
+    .parle h1{
+        font-family: Girassol;
+        
+    }
+    .auteur{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 100vw;
+        justify-content: flex-end;
+        margin-top: 3%;
+    }
+    .relative{
+        position: relative;
+        height: 100px;
+        bottom: 0px;
+        z-index: 50;
+        width: 100%;
+    }
+    
+    .auteur img{
+       position: absolute;
+        
+    }
+    .attali{
+        margin:0;
+        left :0%;
+        bottom: 0;
+        width: 30%;
+    }
+    .attaliHover{
+        margin:0;
+        left :4%;
+        bottom: 0;
+        width: 35%;
+    }
+    
+    .camus{
+        margin:0; 
+        left: 12%;
+        bottom: 0%;
+        width: 20%;
+    }
+    .camusHover{
+        margin:0; 
+        left: 22%;
+        bottom: 0%;
+        width: 28%;
+    }
+    .cioran{
+        margin:0;  
+        left : 40%;
+        bottom: 0;
+        width: 15%;
+    }
+    .cioranHover{
+        left : 40%;
+        bottom: 0;
+        width: 22%;
+    }
+    .ghali{  
+        margin:0;
+        left : 50%;
+        bottom: 0;
+        width: 20%;
+        
+    }
+    .ghaliHover{
+        margin:0;
+        left : 50%;
+        bottom: 0;
+        width: 27%;
+    }
+    .senghor{
+        margin:0;
+        left : 68%;
+        bottom: 0%;
+        width: 12%;
+    }
+    .senghorHover{
+        margin:0;
+        left : 65%;
+        bottom: 0%;
+        width: 16%;
+    }
+    
+    .auteurCitation{
+        font-family: 'Dancing Script', cursive;
+        width:80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        flex-wrap: wrap;
+        z-index:55;
+    }
+    .vigneault{ 
+      margin: 0;
+      left: 73%;
+      bottom: 0%;
+      width: 27%;
+    }
+    .vigneaultHover{
+        margin: 0;
+        left: 75%;
+        bottom: 0%;
+        width: 34%;
+    }
+    .auteurCitation p{
+        margin: 1%;
+    }
+    .parleMobile{
+        width: 100%;
+    }
 }
