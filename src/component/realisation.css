@@ -12,7 +12,7 @@
 }
 .realisation a{
     text-decoration: none;
-    color: red;
+    color: blue;
     font-weight: bold;
 }
 .realisation h1{
@@ -235,4 +235,9 @@
       .bold{
         font-weight: bold;
       }
+      .realisation a{
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+    }
 }
