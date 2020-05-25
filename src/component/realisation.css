@@ -7,6 +7,14 @@
     flex-direction: column;
     background-color: rgb(255,215,0, 0.5);
 }
+.realisation h2{
+    font-size: 1.1em;
+}
+.realisation a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
 .realisation h1{
     font-family: Girassol;
 }

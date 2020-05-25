@@ -97,8 +97,9 @@
 
     }
     .navbarMobile a{
-        margin: 3%;
+        margin: 2%;
         text-decoration: none;
         font-family: Girassol;
+        font-size: 1em;
     }
 }

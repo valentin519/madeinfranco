@@ -19,7 +19,7 @@ class Loading extends React.Component {
                 loading: false,
                 button: true
             })
-        },4000);
+        },2000);
     }
     render(){
         return(

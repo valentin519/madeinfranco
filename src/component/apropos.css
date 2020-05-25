@@ -2,22 +2,68 @@
 @media only screen and (min-width : 601px){
 .Apropos{
     width:100%;
-    height:100vh;
+    height:100%;
     background-color: rgb(0,149,199,0.5);
     color: black;
     display: flex;
-    
     flex-direction: column;
+    justify-content: center;
     
 }
 .Apropos h1{
     font-family: Girassol;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+
+}
+.Apropos h2{
+    font-family: Girassol;
+    margin-bottom: 1%;
+}
+.definition{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: start;
+    margin-right: 5%;
+}
+.definitionPerso{
+    width: 50%;
 }
 .contenuApropos{
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+.overlay {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        visibility: hidden;
+}
+.repartitionFrancophone{
+    width: 100%;
+    margin-bottom: 7%;
+}
+.overlay img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 98%;
+    height: 98%;
+    margin:2%;
+  }
+.overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
 }
 .title{
     width: 100%;
@@ -27,7 +73,7 @@
     font-size: 2em;
 }
 .boiteTexte{
-    width: 40%;
+    width: 70%;
     margin-right: 5%;
     margin-left: 10%;
     font-size: 1.1em;
@@ -37,19 +83,19 @@
     align-items: center;
     font-family: Girassol;
 }
+.Apropos h3{
+    font-size: 1em;
+    text-decoration: underline;
+}
 .boiteImg{
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .Apropos img{
-   
-    
     margin-left: 5%;
-    width: 70%;
-   
-   
+    width: 70%; 
 }
 .boiteTexte br{
     margin-bottom: 2%;
@@ -90,6 +136,7 @@
         font-size: 1.2em;
         text-align: left;
         display: flex;
+        flex-direction: column;
       
     }
     .boiteImg{
@@ -99,8 +146,8 @@
         justify-content: center;
     }
     .Apropos img{
-        width: 50%;
-        margin-bottom: 5%;
+        width: 100%;
+        margin-bottom: 2%;
     }
     .boiteTexte br{
         margin-bottom: 2%;
