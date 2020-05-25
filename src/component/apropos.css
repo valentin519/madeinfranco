@@ -16,7 +16,6 @@
 
 }
 .Apropos h2{
-    font-family: Girassol;
     margin-bottom: 1%;
 }
 .definition{
@@ -29,6 +28,7 @@
 }
 .definitionPerso{
     width: 50%;
+    margin-bottom: 4%;
 }
 .contenuApropos{
     display: flex;
@@ -51,7 +51,7 @@
 }
 .repartitionFrancophone{
     width: 100%;
-    margin-bottom: 7%;
+    margin-bottom: 4%;
 }
 .overlay img{
     max-width: 100%;
@@ -81,11 +81,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Girassol;
 }
 .Apropos h3{
     font-size: 1em;
-    text-decoration: underline;
 }
 .boiteImg{
     width: 30%;

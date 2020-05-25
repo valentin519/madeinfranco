@@ -19,8 +19,8 @@ const Apropos = () => (
                 <div className='boiteTexte'>
                     <div className='definition'>                
                         <h3>La Francophonie, définition :</h3>
-                        <a href='https://fr.wikipedia.org/wiki/Francophonie'>Celon Wikipédia</a>   
-                        <p>La francophonie, également appelé monde francophone ou encore espace francophone désigne l'ensemble des personnes et des institutions qui utilisent le français comme langue de première socialisation, langue d'usage, langue administrative, langue d'enseignement ou langue choisie1.</p>                
+                        <a href='https://fr.wikipedia.org/wiki/Francophonie'>Selon Wikipédia :</a>   
+                        <p>La francophonie, également appelé monde francophone ou encore espace francophone désigne l'ensemble des personnes et des institutions qui utilisent le français comme langue de première socialisation, langue d'usage, langue administrative, langue d'enseignement ou langue choisie.</p>                
                         <br/>
                         <a href="#les_francophones_dans_le_monde">
                             <img src="/Les_francophones_dans_le_monde.jpg" alt="Vignette" className='repartitionFrancophone'/>
@@ -31,7 +31,7 @@ const Apropos = () => (
                     </div>
                     <div className='definitionPerso'>
                         <h3>La Francophonie , notre définition :</h3>
-                        <a href='https://fr.wikipedia.org/wiki/Francophonie'>Notre réalitée:</a> 
+                        <a href='https://fr.wikipedia.org/wiki/Francophonie'>Notre réalité :</a> 
                         <p>
                             C'est avant tout un rassemblement d'êtres vivant sur différents continents qui ont une langue et des valeurs en partage.
                             <br/>
